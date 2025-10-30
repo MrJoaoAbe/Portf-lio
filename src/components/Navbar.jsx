@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <div className="bg-[#8C0303] h-20 grid grid-cols-8 text-white">
             <div className="flex items-center col-start-1 ">
-                <Link to="/" className="rouge-font text-5xl ml-10">J</Link>
+                <Link to="/" className="rouge-font text-6xl ml-10">J</Link>
             </div>
             <div className="flex items-center justify-end col-start-5 text-lg">
                 <Link to="/sobremim">SOBRE MIM</Link>
