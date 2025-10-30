@@ -22,7 +22,7 @@ function SobreMim() {
                 </div>
 
                 <div>
-                    <img src={JoaoAbe} alt="JoaoAbe" className='w-170 rounded-4xl select-none pointer-events-none shadow-2xl' draggable="false" />
+                    <img src={JoaoAbe} alt="JoaoAbe" className='w-170 rounded-4xl select-none pointer-events-none shadow-2xl border-4 border-white' draggable="false" />
                 </div>
             </div>
 
