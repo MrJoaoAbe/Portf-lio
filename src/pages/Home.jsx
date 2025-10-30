@@ -1,6 +1,7 @@
 function Home() {
     return (
-        <div className="min-h-screen bg-linear-to-t from-[#8C0303] to-[#ac0101] text-white">
+        // <div className="min-h-screen bg-linear-to-t from-[#8C0303] to-[#ac0101] text-white">
+        <div className="min-h-screen bg-linear-to-t from-[#380121] to-[#11162D] text-white">
             <div className="grid grid-cols-2">
                 <div className="flex justify-center mt-70 text-8xl mb-10">
                     João Abe

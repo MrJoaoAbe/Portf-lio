@@ -1,6 +1,6 @@
 function Contato() {
     return (
-        <div>Hello World</div>
+        <div className="min-h-screen bg-linear-to-t from-[#380121] to-[#11162D] text-white">Hello World</div>
     )
 }
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
     return (
-        <div className="bg-[#8C0303] h-20 grid grid-cols-8 text-white">
+        <div className="bg-[#11162D] h-20 grid grid-cols-8 text-white">
             <div className="flex items-center col-start-1 ">
                 <Link to="/" className="rouge-font text-6xl ml-10">J</Link>
             </div>
