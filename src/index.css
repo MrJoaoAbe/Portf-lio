@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+.rouge-font {
+  font-family: 'Rouge Script', cursive;
+}
+
+:root {
+  font-family: "Zalando Sans Expanded", sans-serif, "Rouge Script", cursive;
+}
