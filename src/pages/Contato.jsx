@@ -1,6 +1,6 @@
 function Contato() {
     return (
-        <div></div>
+        <div>Hello World</div>
     )
 }
 
