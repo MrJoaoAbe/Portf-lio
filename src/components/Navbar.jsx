@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import Curriculo from "../assets/CurriculoJoaoAbe.pdf"
 
 function Navbar() {
     return (
@@ -32,7 +33,8 @@ function Navbar() {
             </div>
 
             <div className="flex items-center justify-end col-start-8 text-lg mr-10">
-                <h1>CURRICULO</h1>
+                <a href={Curriculo} download="CurriculoJoãoAbe">CURRICULO</a>
+                {/* Adicionei este download para as pessoaa poderem baixar meu curriculo através do portfólio */}
             </div>
         </div>
     )
