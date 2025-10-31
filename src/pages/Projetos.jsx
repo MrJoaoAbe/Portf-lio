@@ -2,10 +2,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import CardProjeto from "../components/CardProjeto";
 import BarraPesquisa from "../components/BarraPesquisa";
+import { useState, useEffect } from "react";
 
 function Projetos() {
+
+    const [repositorio, setRepositorio] = useState([]);
+
+    const API = import.meta.env.VITE_GITHUB_API;
+
+    useEffect(() => {
+        fetch(API)
+            .then(res => res.json())
+            .then(data => {
+                if (data.items) {
+                    setRepositorio(data.items);
+                }
+            })
+            .catch(err => console.error("Erro ao buscar repositórios:", err));
+    }, [API]);
+
+
     return (
-        <div className="min-h-screen bg-linear-to-t from-[#380121] to-[#11162D] text-white">
+        <div className="min-h-screen bg-linear-to-t from-[#380121] to-[#11162D] text-white pb-20">
             <div className="grid grid-cols-2">
                 <div className="flex justify-center mt-70 text-8xl mb-10">
                     PROJETOS
@@ -17,7 +35,18 @@ function Projetos() {
                 <BarraPesquisa />
             </div>
 
-            <CardProjeto />
+            {repositorio.map(repo => (
+                <CardProjeto
+                    key={repo.id}
+                    nome={repo.name}
+                    descricao={repo.description}
+                    linguagem={repo.language}
+                    linkProjeto={repo.html_url}
+                    fork={repo.forks_url}
+                    estrelas={repo.stargazers_count}
+                />
+            ))}
+
 
         </div>
     )
