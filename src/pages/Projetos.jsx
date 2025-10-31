@@ -8,6 +8,12 @@ function Projetos() {
 
     const [repositorio, setRepositorio] = useState([]);
 
+    const [pesquisa, setPesquisa] = useState('')
+
+    function handleChange(e) {
+        setPesquisa(e.target.value)
+    }
+
     const API = import.meta.env.VITE_GITHUB_API;
 
     useEffect(() => {
@@ -28,24 +34,26 @@ function Projetos() {
                 <div className="flex justify-center mt-70 text-8xl mb-10">
                     PROJETOS
                 </div>
-                {/* <div className="relative flex justify-center mt-80 text-xl mb-10 ">
-                    <input type="text" className="border-b-2 border-white w-150 outline-none pl-10" />
+                <div className="relative flex justify-center mt-80 text-xl mb-10 ">
+                    <input type="text" className="border-b-2 border-white w-150 outline-none pl-10" onChange={handleChange} />
                     <FontAwesomeIcon icon={faMagnifyingGlass} className="absolute right-1/5 top-5" />
-                </div> */}
-                <BarraPesquisa />
+                </div>
+                {/* <BarraPesquisa /> */}
             </div>
 
-            {repositorio.map(repo => (
-                <CardProjeto
-                    key={repo.id}
-                    nome={repo.name}
-                    descricao={repo.description}
-                    linguagem={repo.language}
-                    linkProjeto={repo.html_url}
-                    fork={repo.forks_url}
-                    estrelas={repo.stargazers_count}
-                />
-            ))}
+            {repositorio
+                .filter(repo => repo.name.toLowerCase().includes(pesquisa.toLowerCase()))
+                .map(repo => (
+                    <CardProjeto
+                        key={repo.id}
+                        nome={repo.name}
+                        descricao={repo.description}
+                        linguagem={repo.language}
+                        linkProjeto={repo.html_url}
+                        fork={repo.forks_url}
+                        estrelas={repo.stargazers_count}
+                    />
+                ))}
 
 
         </div>
