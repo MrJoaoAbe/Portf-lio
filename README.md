@@ -2,6 +2,8 @@
 ### Bem-vindo(a) ao meu portfólio!
 Este projeto foi criado para apresentar minha trajetória, habilidades e projetos de desenvolvimento web.
 
+### Link para o portfólio: https://porfolio-eta-nine.vercel.app/
+
 ## Seções do Portfólio
 
 - Início: Uma introdução breve com meu nome e função.
