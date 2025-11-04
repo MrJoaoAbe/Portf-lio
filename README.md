@@ -1,4 +1,6 @@
 # Portfólio João Abe
+### Bem-vindo(a) ao meu portfólio!
+Este projeto foi criado para apresentar minha trajetória, habilidades e projetos de desenvolvimento web.
 
 ## Descrição
 Este é o meu portfólio profissional, nele possui as seguintes seções:
