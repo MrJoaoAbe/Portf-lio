@@ -25,5 +25,13 @@ Este projeto foi criado para apresentar minha trajetória, habilidades e projeto
   
 - VERCEL
 
+## Projeto
+
+- Foi utilizado a API do GITHUB para obter os projeto.
+
+- No link para o meu currículo, foi utilizado o atributo **download** para ao clicar, baixa-lo.
+
+- Na barra de pesquisa, o valor que era inserido alterava o valor de uma variavel e com isso era possivel realizar o fitro dos projetos.
+
 ## Autor
 - João Victor de Souza Abe | 561446
