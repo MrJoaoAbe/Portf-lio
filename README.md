@@ -16,9 +16,13 @@ Este projeto foi criado para apresentar minha trajetória, habilidades e projeto
 
 ## Tecnologias Utilizadas:
 - REACT
+  
 - VITE
+  
 - TAILWIND
+  
 - GITHUB
+  
 - VERCEL
 
 ## Autor
