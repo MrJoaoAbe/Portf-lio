@@ -2,13 +2,17 @@
 ### Bem-vindo(a) ao meu portfólio!
 Este projeto foi criado para apresentar minha trajetória, habilidades e projetos de desenvolvimento web.
 
-## Descrição
-Este é o meu portfólio profissional, nele possui as seguintes seções:
-- Seção Inicial - Apresentando meu nome e de forma breve quem eu sou.
-- Seção Sobre Mim - Contém a minha jornada profissional, meus sonhos e minhas competências. Além disto, possui uma foto minha.
-- Seção Projeto - Possui todos os meus projetos publicados no GITHUB, junto com diversas opções que podem ser utilizadas e um sistema de busca para os projetos.
-- Seção Contato - Aqui é uma forma simples de entrar em contato comigo.
-- Curriculo - Ao clicar neste ponto, é realizado o download do meu currículo.
+## Seções do Portfólio
+
+- Início: Uma introdução breve com meu nome e função.
+
+- Sobre Mim: Minha jornada profissional, competências, sonhos e uma foto pessoal.
+
+- Projetos: Exibição dos meus repositórios públicos do GitHub, com sistema de busca e filtros.
+
+- Contato: Formulário simples para quem quiser entrar em contato.
+
+- Currículo: Clique para fazer o download do meu currículo em PDF.
 
 ## Tecnologias Utilizadas:
 - REACT
