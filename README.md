@@ -16,22 +16,18 @@ Este projeto foi criado para apresentar minha trajetória, habilidades e projeto
 
 ## Tecnologias Utilizadas:
 - REACT
-  
 - VITE
-  
 - TAILWIND
-  
 - GITHUB
-  
 - VERCEL
 
-## Projeto
+## Funcionalidades e Implementações
 
-- Foi utilizado a API do GITHUB para obter os projeto.
+- Utilização da API do GitHub para buscar e listar meus projetos automaticamente.
 
-- No link para o meu currículo, foi utilizado o atributo **download** para ao clicar, baixa-lo.
+- O botão de currículo utiliza o atributo download, permitindo baixar o arquivo diretamente.
 
-- Na barra de pesquisa, o valor que era inserido alterava o valor de uma variavel e com isso era possivel realizar o fitro dos projetos.
+- A barra de pesquisa dos projetos atualiza dinamicamente uma variável de estado, permitindo filtrar os repositórios em tempo real.
 
 ## Autor
 - João Victor de Souza Abe | 561446
